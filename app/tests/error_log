@@ -1,0 +1,11 @@
+[09-Mar-2015 09:20:13 Asia/Singapore] PHP Fatal error:  Class 'TestCase' not found in /home/pklstisa/public_html/monitoring/app/tests/ExampleTest.php on line 3
+[09-Mar-2015 10:02:22 Asia/Singapore] PHP Fatal error:  Class 'TestCase' not found in /home/pklstisa/public_html/monitoring/app/tests/ExampleTest.php on line 3
+[09-Mar-2015 10:10:03 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/pklstisa/public_html/monitoring/app/tests/TestCase.php on line 3
+[10-Mar-2015 18:34:09 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/pklstisa/public_html/monitoring/app/tests/TestCase.php on line 3
+[10-Mar-2015 18:51:53 Asia/Singapore] PHP Fatal error:  Class 'TestCase' not found in /home/pklstisa/public_html/monitoring/app/tests/ExampleTest.php on line 3
+[11-Mar-2015 21:38:58 Asia/Singapore] PHP Fatal error:  Class 'TestCase' not found in /home/pklstisa/public_html/monitoring/app/tests/ExampleTest.php on line 3
+[11-Mar-2015 21:39:14 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/pklstisa/public_html/monitoring/app/tests/TestCase.php on line 3
+[14-Mar-2015 09:36:16 Asia/Singapore] PHP Fatal error:  Class 'TestCase' not found in /home/pklstisa/public_html/monitoring/app/tests/ExampleTest.php on line 3
+[14-Mar-2015 09:36:51 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/pklstisa/public_html/monitoring/app/tests/TestCase.php on line 3
+[17-Mar-2015 06:13:32 Asia/Singapore] PHP Fatal error:  Class 'TestCase' not found in /home/pklstisa/public_html/monitoring/app/tests/ExampleTest.php on line 3
+[17-Mar-2015 07:04:00 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/pklstisa/public_html/monitoring/app/tests/TestCase.php on line 3
