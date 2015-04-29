@@ -1,0 +1,55 @@
+[10-Mar-2015 03:27:11 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/pklstisa/public_html/monitoring/app/storage/views/c4895c03cf29e8c9f7663106a00706f4 on line 11
+[10-Mar-2015 03:29:49 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/pklstisa/public_html/monitoring/app/storage/views/c4895c03cf29e8c9f7663106a00706f4 on line 11
+[10-Mar-2015 03:56:21 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/pklstisa/public_html/monitoring/app/storage/views/c4895c03cf29e8c9f7663106a00706f4 on line 11
+[10-Mar-2015 07:08:02 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/pklstisa/public_html/monitoring/app/storage/views/c4895c03cf29e8c9f7663106a00706f4 on line 11
+[10-Mar-2015 07:08:05 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/pklstisa/public_html/monitoring/app/storage/views/c4895c03cf29e8c9f7663106a00706f4 on line 11
+[10-Mar-2015 07:08:51 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/pklstisa/public_html/monitoring/app/storage/views/c4895c03cf29e8c9f7663106a00706f4 on line 11
+[10-Mar-2015 07:08:53 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/pklstisa/public_html/monitoring/app/storage/views/c4895c03cf29e8c9f7663106a00706f4 on line 11
+[10-Mar-2015 07:08:55 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/pklstisa/public_html/monitoring/app/storage/views/c4895c03cf29e8c9f7663106a00706f4 on line 11
+[10-Mar-2015 07:10:15 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/pklstisa/public_html/monitoring/app/storage/views/c4895c03cf29e8c9f7663106a00706f4 on line 11
+[10-Mar-2015 07:10:18 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/pklstisa/public_html/monitoring/app/storage/views/c4895c03cf29e8c9f7663106a00706f4 on line 11
+[10-Mar-2015 07:11:26 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/pklstisa/public_html/monitoring/app/storage/views/c4895c03cf29e8c9f7663106a00706f4 on line 11
+[10-Mar-2015 07:12:15 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/pklstisa/public_html/monitoring/app/storage/views/c4895c03cf29e8c9f7663106a00706f4 on line 11
+[16-Mar-2015 05:59:32 UTC] PHP Fatal error:  Call to a member function where() on a non-object in /home/pklstisa/public_html/monitoring/app/controllers/SiteController.php on line 383
+[16-Mar-2015 05:59:34 UTC] PHP Fatal error:  Call to a member function where() on a non-object in /home/pklstisa/public_html/monitoring/app/controllers/SiteController.php on line 383
+[16-Mar-2015 05:59:40 UTC] PHP Fatal error:  Call to a member function where() on a non-object in /home/pklstisa/public_html/monitoring/app/controllers/SiteController.php on line 383
+[16-Mar-2015 06:01:24 UTC] PHP Fatal error:  Call to a member function where() on a non-object in /home/pklstisa/public_html/monitoring/app/controllers/SiteController.php on line 383
+[16-Mar-2015 06:01:24 UTC] PHP Fatal error:  Call to a member function where() on a non-object in /home/pklstisa/public_html/monitoring/app/controllers/SiteController.php on line 383
+[16-Mar-2015 06:02:48 UTC] PHP Fatal error:  Call to a member function where() on a non-object in /home/pklstisa/public_html/monitoring/app/controllers/SiteController.php on line 383
+[16-Mar-2015 06:02:52 UTC] PHP Fatal error:  Call to a member function where() on a non-object in /home/pklstisa/public_html/monitoring/app/controllers/SiteController.php on line 383
+[16-Mar-2015 06:02:57 UTC] PHP Fatal error:  Call to a member function where() on a non-object in /home/pklstisa/public_html/monitoring/app/controllers/SiteController.php on line 383
+[16-Mar-2015 06:03:12 UTC] PHP Fatal error:  Call to a member function where() on a non-object in /home/pklstisa/public_html/monitoring/app/controllers/SiteController.php on line 383
+[16-Mar-2015 06:04:00 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/pklstisa/public_html/monitoring/app/controllers/SiteController.php on line 383
+[16-Mar-2015 06:04:00 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/pklstisa/public_html/monitoring/app/controllers/SiteController.php on line 383
+[16-Mar-2015 06:04:04 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/pklstisa/public_html/monitoring/app/controllers/SiteController.php on line 383
+[16-Mar-2015 06:04:51 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/pklstisa/public_html/monitoring/app/controllers/SiteController.php on line 383
+[16-Mar-2015 06:04:51 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/pklstisa/public_html/monitoring/app/controllers/SiteController.php on line 383
+[17-Mar-2015 02:38:37 UTC] PHP Fatal error:  Call to a member function first() on a non-object in /home/pklstisa/public_html/monitoring/app/storage/views/fbb20b2a652b3343a588b1be806c1b86 on line 40
+[17-Mar-2015 18:11:06 UTC] PHP Parse error:  syntax error, unexpected 'font' (T_STRING) in /home/pklstisa/public_html/monitoring/app/storage/views/2b8bad1298290dfb17f7df0b33693b5a on line 58
+[17-Mar-2015 18:12:46 UTC] PHP Parse error:  syntax error, unexpected 'color' (T_STRING) in /home/pklstisa/public_html/monitoring/app/storage/views/2b8bad1298290dfb17f7df0b33693b5a on line 58
+[17-Mar-2015 18:14:33 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/pklstisa/public_html/monitoring/app/storage/views/2b8bad1298290dfb17f7df0b33693b5a on line 60
+[17-Mar-2015 18:16:02 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/pklstisa/public_html/monitoring/app/storage/views/2b8bad1298290dfb17f7df0b33693b5a on line 60
+[18-Mar-2015 04:29:23 UTC] PHP Fatal error:  Call to undefined method Illuminate\Database\Eloquent\Collection::links() in /home/pklstisa/public_html/monitoring/app/storage/views/fbb20b2a652b3343a588b1be806c1b86 on line 53
+[19-Mar-2015 04:05:40 UTC] PHP Fatal error:  Class 'Kodejenisikan' not found in /home/pklstisa/public_html/monitoring/app/storage/views/1a189bf4ebeeb2147fcc9c1361235795 on line 121
+[19-Mar-2015 04:05:50 UTC] PHP Fatal error:  Class 'Kodejenisikan' not found in /home/pklstisa/public_html/monitoring/app/storage/views/1a189bf4ebeeb2147fcc9c1361235795 on line 121
+[19-Mar-2015 04:05:52 UTC] PHP Fatal error:  Class 'Kodejenisikan' not found in /home/pklstisa/public_html/monitoring/app/storage/views/1a189bf4ebeeb2147fcc9c1361235795 on line 121
+[19-Mar-2015 04:05:53 UTC] PHP Fatal error:  Class 'Kodejenisikan' not found in /home/pklstisa/public_html/monitoring/app/storage/views/1a189bf4ebeeb2147fcc9c1361235795 on line 121
+[19-Mar-2015 04:05:56 UTC] PHP Fatal error:  Class 'Kodejenisikan' not found in /home/pklstisa/public_html/monitoring/app/storage/views/1a189bf4ebeeb2147fcc9c1361235795 on line 121
+[19-Mar-2015 04:15:57 UTC] PHP Fatal error:  Cannot use [] for reading in /home/pklstisa/public_html/monitoring/app/storage/views/1a189bf4ebeeb2147fcc9c1361235795 on line 123
+[19-Mar-2015 04:16:03 UTC] PHP Fatal error:  Cannot use [] for reading in /home/pklstisa/public_html/monitoring/app/storage/views/1a189bf4ebeeb2147fcc9c1361235795 on line 123
+[19-Mar-2015 04:16:06 UTC] PHP Fatal error:  Cannot use [] for reading in /home/pklstisa/public_html/monitoring/app/storage/views/1a189bf4ebeeb2147fcc9c1361235795 on line 123
+[19-Mar-2015 04:16:18 UTC] PHP Fatal error:  Cannot use [] for reading in /home/pklstisa/public_html/monitoring/app/storage/views/1a189bf4ebeeb2147fcc9c1361235795 on line 123
+[19-Mar-2015 04:16:25 UTC] PHP Fatal error:  Cannot use [] for reading in /home/pklstisa/public_html/monitoring/app/storage/views/1a189bf4ebeeb2147fcc9c1361235795 on line 123
+[19-Mar-2015 04:16:29 UTC] PHP Fatal error:  Cannot use [] for reading in /home/pklstisa/public_html/monitoring/app/storage/views/1a189bf4ebeeb2147fcc9c1361235795 on line 123
+[19-Mar-2015 04:16:54 UTC] PHP Fatal error:  Cannot use [] for reading in /home/pklstisa/public_html/monitoring/app/storage/views/1a189bf4ebeeb2147fcc9c1361235795 on line 123
+[19-Mar-2015 04:16:59 UTC] PHP Fatal error:  Cannot use [] for reading in /home/pklstisa/public_html/monitoring/app/storage/views/1a189bf4ebeeb2147fcc9c1361235795 on line 123
+[19-Mar-2015 04:17:01 UTC] PHP Fatal error:  Cannot use [] for reading in /home/pklstisa/public_html/monitoring/app/storage/views/1a189bf4ebeeb2147fcc9c1361235795 on line 123
+[19-Mar-2015 04:18:08 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/pklstisa/public_html/monitoring/app/storage/views/1a189bf4ebeeb2147fcc9c1361235795 on line 154
+[19-Mar-2015 04:18:32 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/pklstisa/public_html/monitoring/app/storage/views/1a189bf4ebeeb2147fcc9c1361235795 on line 154
+[31-Mar-2015 04:48:31 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/pklstisa/public_html/monitoring/app/storage/views/0a7a7bb90f7f64c3a31dd76a2ff42358 on line 92
+[31-Mar-2015 04:48:47 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/pklstisa/public_html/monitoring/app/storage/views/0a7a7bb90f7f64c3a31dd76a2ff42358 on line 92
+[31-Mar-2015 04:50:14 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/pklstisa/public_html/monitoring/app/storage/views/0a7a7bb90f7f64c3a31dd76a2ff42358 on line 92
+[31-Mar-2015 04:50:15 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/pklstisa/public_html/monitoring/app/storage/views/0a7a7bb90f7f64c3a31dd76a2ff42358 on line 92
+[31-Mar-2015 04:50:16 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/pklstisa/public_html/monitoring/app/storage/views/0a7a7bb90f7f64c3a31dd76a2ff42358 on line 92
+[31-Mar-2015 04:51:40 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/pklstisa/public_html/monitoring/app/storage/views/0a7a7bb90f7f64c3a31dd76a2ff42358 on line 93
+[31-Mar-2015 05:02:53 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/pklstisa/public_html/monitoring/app/storage/views/0a7a7bb90f7f64c3a31dd76a2ff42358 on line 91
