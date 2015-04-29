@@ -1,0 +1,8 @@
+[12-Mar-2015 04:31:31 Asia/Singapore] PHP Fatal error:  Cannot redeclare iconv() in /home/pklstisa/public_html/monitoring/vendor/patchwork/utf8/class/Patchwork/Utf8/Bootup/iconv.php on line 18
+[12-Mar-2015 09:57:05 Asia/Singapore] PHP Fatal error:  Cannot redeclare normalizer_is_normalized() in /home/pklstisa/public_html/monitoring/vendor/patchwork/utf8/class/Patchwork/Utf8/Bootup/intl.php on line 17
+[12-Mar-2015 18:33:27 Asia/Singapore] PHP Fatal error:  Cannot redeclare utf8_encode() in /home/pklstisa/public_html/monitoring/vendor/patchwork/utf8/class/Patchwork/Utf8/Bootup/utf8_encode.php on line 13
+[12-Mar-2015 23:26:01 Asia/Singapore] PHP Fatal error:  Cannot redeclare mb_convert_encoding() in /home/pklstisa/public_html/monitoring/vendor/patchwork/utf8/class/Patchwork/Utf8/Bootup/mbstring.php on line 20
+[14-Mar-2015 20:22:38 Asia/Singapore] PHP Fatal error:  Cannot redeclare iconv() in /home/pklstisa/public_html/monitoring/vendor/patchwork/utf8/class/Patchwork/Utf8/Bootup/iconv.php on line 18
+[15-Mar-2015 06:57:21 Asia/Singapore] PHP Fatal error:  Cannot redeclare normalizer_is_normalized() in /home/pklstisa/public_html/monitoring/vendor/patchwork/utf8/class/Patchwork/Utf8/Bootup/intl.php on line 17
+[15-Mar-2015 09:06:35 Asia/Singapore] PHP Fatal error:  Cannot redeclare mb_convert_encoding() in /home/pklstisa/public_html/monitoring/vendor/patchwork/utf8/class/Patchwork/Utf8/Bootup/mbstring.php on line 20
+[15-Mar-2015 14:41:07 Asia/Singapore] PHP Fatal error:  Cannot redeclare utf8_encode() in /home/pklstisa/public_html/monitoring/vendor/patchwork/utf8/class/Patchwork/Utf8/Bootup/utf8_encode.php on line 13

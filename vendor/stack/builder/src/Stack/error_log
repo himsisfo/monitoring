@@ -1,0 +1,2 @@
+[12-Mar-2015 01:19:25 Asia/Singapore] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\HttpKernelInterface' not found in /home/pklstisa/public_html/monitoring/vendor/stack/builder/src/Stack/StackedHttpKernel.php on line 10
+[15-Mar-2015 00:56:41 Asia/Singapore] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\HttpKernelInterface' not found in /home/pklstisa/public_html/monitoring/vendor/stack/builder/src/Stack/StackedHttpKernel.php on line 10

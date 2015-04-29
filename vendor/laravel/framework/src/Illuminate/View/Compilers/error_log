@@ -1,0 +1,3 @@
+[13-Mar-2015 05:01:48 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\View\Compilers\Compiler' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php on line 5
+[13-Mar-2015 18:11:36 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\View\Compilers\Compiler' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php on line 5
+[16-Mar-2015 12:06:41 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\View\Compilers\Compiler' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php on line 5

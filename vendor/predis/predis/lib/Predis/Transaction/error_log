@@ -1,0 +1,6 @@
+[11-Mar-2015 07:38:37 Asia/Singapore] PHP Fatal error:  Class 'Predis\PredisException' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Transaction/AbortedMultiExecException.php on line 22
+[11-Mar-2015 19:51:12 Asia/Singapore] PHP Fatal error:  Interface 'Predis\BasicClientInterface' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Transaction/MultiExecContext.php on line 33
+[13-Mar-2015 23:23:57 Asia/Singapore] PHP Fatal error:  Class 'Predis\PredisException' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Transaction/AbortedMultiExecException.php on line 22
+[14-Mar-2015 12:05:19 Asia/Singapore] PHP Fatal error:  Class 'Predis\PredisException' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Transaction/AbortedMultiExecException.php on line 22
+[14-Mar-2015 12:28:41 Asia/Singapore] PHP Fatal error:  Interface 'Predis\BasicClientInterface' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Transaction/MultiExecContext.php on line 33
+[15-Mar-2015 01:43:58 Asia/Singapore] PHP Fatal error:  Interface 'Predis\BasicClientInterface' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Transaction/MultiExecContext.php on line 33

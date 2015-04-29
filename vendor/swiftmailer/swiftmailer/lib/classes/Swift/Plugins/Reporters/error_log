@@ -1,0 +1,4 @@
+[14-Mar-2015 12:24:49 Asia/Singapore] PHP Fatal error:  Interface 'Swift_Plugins_Reporter' not found in /home/pklstisa/public_html/monitoring/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporters/HitReporter.php on line 17
+[14-Mar-2015 12:29:59 Asia/Singapore] PHP Fatal error:  Interface 'Swift_Plugins_Reporter' not found in /home/pklstisa/public_html/monitoring/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporters/HtmlReporter.php on line 17
+[15-Mar-2015 06:50:18 Asia/Singapore] PHP Fatal error:  Interface 'Swift_Plugins_Reporter' not found in /home/pklstisa/public_html/monitoring/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporters/HtmlReporter.php on line 17
+[15-Mar-2015 06:59:28 Asia/Singapore] PHP Fatal error:  Interface 'Swift_Plugins_Reporter' not found in /home/pklstisa/public_html/monitoring/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporters/HitReporter.php on line 17

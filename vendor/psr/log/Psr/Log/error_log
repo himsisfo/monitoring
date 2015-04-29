@@ -1,0 +1,7 @@
+[11-Mar-2015 23:52:02 Asia/Singapore] PHP Fatal error:  Interface 'Psr\Log\LoggerInterface' not found in /home/pklstisa/public_html/monitoring/vendor/psr/log/Psr/Log/AbstractLogger.php on line 13
+[12-Mar-2015 00:41:37 Asia/Singapore] PHP Fatal error:  Interface 'Psr\Log\LoggerInterface' not found in /home/pklstisa/public_html/monitoring/vendor/psr/log/Psr/Log/AbstractLogger.php on line 13
+[12-Mar-2015 01:20:17 Asia/Singapore] PHP Fatal error:  Class 'Psr\Log\AbstractLogger' not found in /home/pklstisa/public_html/monitoring/vendor/psr/log/Psr/Log/NullLogger.php on line 14
+[14-Mar-2015 19:31:47 Asia/Singapore] PHP Fatal error:  Interface 'Psr\Log\LoggerInterface' not found in /home/pklstisa/public_html/monitoring/vendor/psr/log/Psr/Log/AbstractLogger.php on line 13
+[14-Mar-2015 19:58:34 Asia/Singapore] PHP Fatal error:  Class 'Psr\Log\AbstractLogger' not found in /home/pklstisa/public_html/monitoring/vendor/psr/log/Psr/Log/NullLogger.php on line 14
+[17-Mar-2015 13:23:38 Asia/Singapore] PHP Fatal error:  Interface 'Psr\Log\LoggerInterface' not found in /home/pklstisa/public_html/monitoring/vendor/psr/log/Psr/Log/AbstractLogger.php on line 13
+[17-Mar-2015 13:44:01 Asia/Singapore] PHP Fatal error:  Class 'Psr\Log\AbstractLogger' not found in /home/pklstisa/public_html/monitoring/vendor/psr/log/Psr/Log/NullLogger.php on line 14

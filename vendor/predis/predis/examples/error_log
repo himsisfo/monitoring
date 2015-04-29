@@ -1,0 +1,553 @@
+[10-Mar-2015 06:41:39 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[10-Mar-2015 07:03:36 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[10-Mar-2015 07:04:14 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[10-Mar-2015 07:34:20 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[10-Mar-2015 08:20:08 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[10-Mar-2015 09:02:54 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[10-Mar-2015 10:07:02 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[10-Mar-2015 10:07:40 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[10-Mar-2015 10:35:15 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[10-Mar-2015 11:32:53 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[10-Mar-2015 12:50:50 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[10-Mar-2015 13:13:36 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6380]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[10-Mar-2015 16:39:14 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[10-Mar-2015 16:39:14 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[10-Mar-2015 20:31:00 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6380]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[10-Mar-2015 21:39:39 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[11-Mar-2015 01:50:21 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[11-Mar-2015 14:35:29 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[11-Mar-2015 14:35:29 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[11-Mar-2015 15:51:24 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6380]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[11-Mar-2015 16:16:57 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6380]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[11-Mar-2015 16:26:27 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[11-Mar-2015 17:04:42 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[11-Mar-2015 17:14:20 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[11-Mar-2015 17:24:03 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[11-Mar-2015 18:00:21 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[11-Mar-2015 18:03:44 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[11-Mar-2015 18:46:58 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[11-Mar-2015 21:34:14 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[11-Mar-2015 21:34:26 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[11-Mar-2015 21:34:26 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[11-Mar-2015 21:35:41 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6380]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[11-Mar-2015 21:36:21 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[11-Mar-2015 21:43:32 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6380]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[12-Mar-2015 18:13:31 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[12-Mar-2015 19:42:47 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[12-Mar-2015 19:44:23 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[12-Mar-2015 20:43:02 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[12-Mar-2015 20:50:57 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[12-Mar-2015 21:17:10 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[12-Mar-2015 21:18:23 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[12-Mar-2015 21:25:43 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[12-Mar-2015 22:00:34 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[12-Mar-2015 23:34:14 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[12-Mar-2015 23:59:56 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[13-Mar-2015 02:15:34 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[13-Mar-2015 02:15:34 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[13-Mar-2015 03:39:27 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[13-Mar-2015 05:24:54 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6380]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[13-Mar-2015 06:56:47 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[13-Mar-2015 10:39:14 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[13-Mar-2015 11:15:47 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6380]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[13-Mar-2015 21:26:21 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[13-Mar-2015 21:26:52 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[13-Mar-2015 23:52:48 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6380]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[13-Mar-2015 23:54:52 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6380]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[14-Mar-2015 10:27:23 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[15-Mar-2015 07:19:15 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[15-Mar-2015 07:29:07 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[15-Mar-2015 09:03:48 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[15-Mar-2015 10:18:34 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[15-Mar-2015 10:23:55 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[15-Mar-2015 10:25:17 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[15-Mar-2015 12:21:16 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[15-Mar-2015 13:40:25 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[15-Mar-2015 21:07:52 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[15-Mar-2015 21:07:52 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[16-Mar-2015 00:07:49 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[16-Mar-2015 01:50:57 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[16-Mar-2015 02:12:13 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[16-Mar-2015 02:39:41 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[16-Mar-2015 11:36:11 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[16-Mar-2015 12:19:28 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6380]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[16-Mar-2015 12:46:27 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6380]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[17-Mar-2015 21:30:13 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[17-Mar-2015 22:08:44 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[18-Mar-2015 02:19:35 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[18-Mar-2015 03:51:01 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141
+[18-Mar-2015 05:24:24 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Predis\Connection\ConnectionException' with message 'Connection refused [tcp://127.0.0.1:6379]' in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php:141
+Stack trace:
+#0 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(96): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 111)
+#1 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(70): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\ConnectionParameters))
+#2 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php(96): Predis\Connection\StreamConnection->createResource()
+#3 /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/StreamConnection.php(144): Predis\Connection\AbstractConnection->connect()
+#4 /home/pklstisa/public_html/monitoring/vendor/pred in /home/pklstisa/public_html/monitoring/vendor/predis/predis/lib/Predis/Connection/AbstractConnection.php on line 141

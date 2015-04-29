@@ -1,0 +1,4 @@
+[12-Mar-2015 03:49:38 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\Console\Command' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/Cache/Console/CacheTableCommand.php on line 6
+[13-Mar-2015 11:56:04 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\Console\Command' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/Cache/Console/ClearCommand.php on line 7
+[15-Mar-2015 00:58:15 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\Console\Command' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/Cache/Console/CacheTableCommand.php on line 6
+[16-Mar-2015 02:31:17 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\Console\Command' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/Cache/Console/ClearCommand.php on line 7

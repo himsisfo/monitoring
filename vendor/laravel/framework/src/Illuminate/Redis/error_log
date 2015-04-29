@@ -1,0 +1,2 @@
+[12-Mar-2015 17:29:30 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/Redis/RedisServiceProvider.php on line 5
+[15-Mar-2015 15:52:02 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/Redis/RedisServiceProvider.php on line 5

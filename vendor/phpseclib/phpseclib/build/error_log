@@ -1,0 +1,6 @@
+[10-Mar-2015 13:13:58 Asia/Singapore] PHP Fatal error:  Class 'Sami\Store\ArrayStore' not found in /home/pklstisa/public_html/monitoring/vendor/phpseclib/phpseclib/build/sami.conf.php on line 5
+[11-Mar-2015 17:23:09 Asia/Singapore] PHP Fatal error:  Class 'Sami\Store\ArrayStore' not found in /home/pklstisa/public_html/monitoring/vendor/phpseclib/phpseclib/build/sami.conf.php on line 5
+[11-Mar-2015 17:34:12 Asia/Singapore] PHP Fatal error:  Class 'Sami\Store\ArrayStore' not found in /home/pklstisa/public_html/monitoring/vendor/phpseclib/phpseclib/build/sami.conf.php on line 5
+[13-Mar-2015 05:13:09 Asia/Singapore] PHP Fatal error:  Class 'Sami\Store\ArrayStore' not found in /home/pklstisa/public_html/monitoring/vendor/phpseclib/phpseclib/build/sami.conf.php on line 5
+[13-Mar-2015 22:42:54 Asia/Singapore] PHP Fatal error:  Class 'Sami\Store\ArrayStore' not found in /home/pklstisa/public_html/monitoring/vendor/phpseclib/phpseclib/build/sami.conf.php on line 5
+[16-Mar-2015 12:13:26 Asia/Singapore] PHP Fatal error:  Class 'Sami\Store\ArrayStore' not found in /home/pklstisa/public_html/monitoring/vendor/phpseclib/phpseclib/build/sami.conf.php on line 5

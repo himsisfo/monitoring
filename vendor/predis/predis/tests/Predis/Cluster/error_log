@@ -1,0 +1,6 @@
+[14-Mar-2015 02:34:04 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/Cluster/PredisClusterHashStrategyTest.php on line 22
+[14-Mar-2015 02:45:43 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/Cluster/RedisClusterHashStrategyTest.php on line 21
+[14-Mar-2015 05:06:05 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/Cluster/PredisClusterHashStrategyTest.php on line 22
+[14-Mar-2015 05:08:34 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/Cluster/RedisClusterHashStrategyTest.php on line 21
+[16-Mar-2015 22:39:58 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/Cluster/PredisClusterHashStrategyTest.php on line 22
+[17-Mar-2015 08:55:04 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/Cluster/RedisClusterHashStrategyTest.php on line 21

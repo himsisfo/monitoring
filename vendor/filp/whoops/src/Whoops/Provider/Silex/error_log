@@ -1,0 +1,3 @@
+[12-Mar-2015 23:25:17 Asia/Singapore] PHP Fatal error:  Interface 'Silex\ServiceProviderInterface' not found in /home/pklstisa/public_html/monitoring/vendor/filp/whoops/src/Whoops/Provider/Silex/WhoopsServiceProvider.php on line 21
+[12-Mar-2015 23:59:16 Asia/Singapore] PHP Fatal error:  Interface 'Silex\ServiceProviderInterface' not found in /home/pklstisa/public_html/monitoring/vendor/filp/whoops/src/Whoops/Provider/Silex/WhoopsServiceProvider.php on line 21
+[15-Mar-2015 23:50:10 Asia/Singapore] PHP Fatal error:  Interface 'Silex\ServiceProviderInterface' not found in /home/pklstisa/public_html/monitoring/vendor/filp/whoops/src/Whoops/Provider/Silex/WhoopsServiceProvider.php on line 21

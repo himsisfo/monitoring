@@ -1,0 +1,3 @@
+[13-Mar-2015 10:38:25 Asia/Singapore] PHP Fatal error:  Interface 'Swift_Transport_EsmtpHandler' not found in /home/pklstisa/public_html/monitoring/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 17
+[13-Mar-2015 21:24:01 Asia/Singapore] PHP Fatal error:  Interface 'Swift_Transport_EsmtpHandler' not found in /home/pklstisa/public_html/monitoring/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 17
+[16-Mar-2015 11:05:16 Asia/Singapore] PHP Fatal error:  Interface 'Swift_Transport_EsmtpHandler' not found in /home/pklstisa/public_html/monitoring/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 17

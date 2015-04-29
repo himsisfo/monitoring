@@ -1,0 +1,6 @@
+[13-Mar-2015 03:44:17 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/Command/Processor/ProcessorChainTest.php on line 20
+[13-Mar-2015 19:31:04 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/Command/Processor/KeyPrefixProcessorTest.php on line 20
+[13-Mar-2015 21:13:25 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/Command/Processor/ProcessorChainTest.php on line 20
+[14-Mar-2015 10:18:55 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/Command/Processor/ProcessorChainTest.php on line 20
+[16-Mar-2015 09:37:33 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/Command/Processor/KeyPrefixProcessorTest.php on line 20
+[17-Mar-2015 20:27:56 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/Command/Processor/ProcessorChainTest.php on line 20

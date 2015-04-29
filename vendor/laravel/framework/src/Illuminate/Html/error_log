@@ -1,0 +1,6 @@
+[12-Mar-2015 01:34:31 Asia/Singapore] PHP Fatal error:  Trait 'Illuminate\Support\Traits\MacroableTrait' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/Html/HtmlBuilder.php on line 8
+[12-Mar-2015 05:08:16 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/Html/HtmlServiceProvider.php on line 5
+[12-Mar-2015 19:59:51 Asia/Singapore] PHP Fatal error:  Trait 'Illuminate\Support\Traits\MacroableTrait' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php on line 9
+[14-Mar-2015 23:28:53 Asia/Singapore] PHP Fatal error:  Trait 'Illuminate\Support\Traits\MacroableTrait' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/Html/HtmlBuilder.php on line 8
+[15-Mar-2015 01:52:42 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/Html/HtmlServiceProvider.php on line 5
+[15-Mar-2015 11:20:52 Asia/Singapore] PHP Fatal error:  Trait 'Illuminate\Support\Traits\MacroableTrait' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php on line 9

@@ -1,0 +1,9 @@
+[10-Mar-2015 19:04:22 Asia/Singapore] PHP Fatal error:  Interface 'Boris\Inspector' not found in /home/pklstisa/public_html/monitoring/vendor/d11wtq/boris/lib/Boris/ExportInspector.php on line 10
+[11-Mar-2015 10:31:31 Asia/Singapore] PHP Fatal error:  Interface 'Boris\Inspector' not found in /home/pklstisa/public_html/monitoring/vendor/d11wtq/boris/lib/Boris/DumpInspector.php on line 10
+[13-Mar-2015 03:44:46 Asia/Singapore] PHP Fatal error:  Interface 'Boris\Inspector' not found in /home/pklstisa/public_html/monitoring/vendor/d11wtq/boris/lib/Boris/ExportInspector.php on line 10
+[13-Mar-2015 19:28:56 Asia/Singapore] PHP Fatal error:  Interface 'Boris\Inspector' not found in /home/pklstisa/public_html/monitoring/vendor/d11wtq/boris/lib/Boris/DumpInspector.php on line 10
+[13-Mar-2015 19:51:02 Asia/Singapore] PHP Fatal error:  Interface 'Boris\Inspector' not found in /home/pklstisa/public_html/monitoring/vendor/d11wtq/boris/lib/Boris/ColoredInspector.php on line 17
+[15-Mar-2015 02:07:03 Asia/Singapore] PHP Fatal error:  Interface 'Boris\Inspector' not found in /home/pklstisa/public_html/monitoring/vendor/d11wtq/boris/lib/Boris/ColoredInspector.php on line 17
+[16-Mar-2015 00:15:35 Asia/Singapore] PHP Fatal error:  Interface 'Boris\Inspector' not found in /home/pklstisa/public_html/monitoring/vendor/d11wtq/boris/lib/Boris/ExportInspector.php on line 10
+[16-Mar-2015 08:55:12 Asia/Singapore] PHP Fatal error:  Interface 'Boris\Inspector' not found in /home/pklstisa/public_html/monitoring/vendor/d11wtq/boris/lib/Boris/DumpInspector.php on line 10
+[22-Mar-2015 06:28:13 Asia/Singapore] PHP Fatal error:  Interface 'Boris\Inspector' not found in /home/pklstisa/public_html/monitoring/vendor/d11wtq/boris/lib/Boris/DumpInspector.php on line 10

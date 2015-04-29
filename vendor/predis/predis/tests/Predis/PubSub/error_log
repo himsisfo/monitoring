@@ -1,0 +1,6 @@
+[13-Mar-2015 06:15:50 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/PubSub/PubSubContextTest.php on line 22
+[13-Mar-2015 06:33:15 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/PubSub/DispatcherLoopTest.php on line 21
+[13-Mar-2015 18:36:11 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/PubSub/PubSubContextTest.php on line 22
+[13-Mar-2015 19:46:15 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/PubSub/DispatcherLoopTest.php on line 21
+[16-Mar-2015 09:55:45 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/PubSub/PubSubContextTest.php on line 22
+[16-Mar-2015 10:34:25 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/PubSub/DispatcherLoopTest.php on line 21

@@ -1,0 +1,4 @@
+[12-Mar-2015 13:27:11 Asia/Singapore] PHP Fatal error:  Class 'PHPParser_Node_Stmt_TraitUseAdaptation' not found in /home/pklstisa/public_html/monitoring/vendor/nikic/php-parser/lib/PHPParser/Node/Stmt/TraitUseAdaptation/Alias.php on line 10
+[12-Mar-2015 15:34:30 Asia/Singapore] PHP Fatal error:  Class 'PHPParser_Node_Stmt_TraitUseAdaptation' not found in /home/pklstisa/public_html/monitoring/vendor/nikic/php-parser/lib/PHPParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 9
+[15-Mar-2015 04:24:24 Asia/Singapore] PHP Fatal error:  Class 'PHPParser_Node_Stmt_TraitUseAdaptation' not found in /home/pklstisa/public_html/monitoring/vendor/nikic/php-parser/lib/PHPParser/Node/Stmt/TraitUseAdaptation/Alias.php on line 10
+[15-Mar-2015 13:28:25 Asia/Singapore] PHP Fatal error:  Class 'PHPParser_Node_Stmt_TraitUseAdaptation' not found in /home/pklstisa/public_html/monitoring/vendor/nikic/php-parser/lib/PHPParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 9

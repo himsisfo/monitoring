@@ -1,0 +1,2 @@
+[12-Mar-2015 03:49:12 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\Database\Schema\Builder' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php on line 3
+[15-Mar-2015 00:40:18 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\Database\Schema\Builder' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php on line 3

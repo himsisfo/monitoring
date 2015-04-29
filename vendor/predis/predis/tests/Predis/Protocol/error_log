@@ -1,0 +1,4 @@
+[13-Mar-2015 21:19:53 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/CommunicationExceptionTest.php on line 21
+[14-Mar-2015 10:22:56 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/CommunicationExceptionTest.php on line 21
+[17-Mar-2015 16:41:28 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/CommunicationExceptionTest.php on line 21
+[17-Mar-2015 17:38:06 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/CommunicationExceptionTest.php on line 21

@@ -1,0 +1,4 @@
+[11-Mar-2015 21:40:20 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\Console\Command' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/Database/Console/SeedCommand.php on line 8
+[14-Mar-2015 09:47:27 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\Console\Command' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/Database/Console/SeedCommand.php on line 8
+[17-Mar-2015 06:56:04 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\Console\Command' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/Database/Console/SeedCommand.php on line 8
+[17-Mar-2015 07:13:53 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\Console\Command' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/Database/Console/SeedCommand.php on line 8

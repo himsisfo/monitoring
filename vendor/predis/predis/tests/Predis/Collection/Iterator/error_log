@@ -1,0 +1,10 @@
+[12-Mar-2015 15:02:56 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/Collection/Iterator/KeyspaceTest.php on line 22
+[13-Mar-2015 16:48:44 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/Collection/Iterator/HashKeyTest.php on line 22
+[13-Mar-2015 16:54:05 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/Collection/Iterator/ListKeyTest.php on line 22
+[13-Mar-2015 16:58:39 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/Collection/Iterator/SetKeyTest.php on line 22
+[13-Mar-2015 17:12:09 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/Collection/Iterator/KeyspaceTest.php on line 22
+[13-Mar-2015 17:27:46 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/Collection/Iterator/SortedSetKeyTest.php on line 22
+[16-Mar-2015 10:25:52 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/Collection/Iterator/HashKeyTest.php on line 22
+[16-Mar-2015 10:28:33 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/Collection/Iterator/ListKeyTest.php on line 22
+[16-Mar-2015 11:56:25 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/Collection/Iterator/SetKeyTest.php on line 22
+[16-Mar-2015 14:29:47 Asia/Singapore] PHP Fatal error:  Class 'PredisTestCase' not found in /home/pklstisa/public_html/monitoring/vendor/predis/predis/tests/Predis/Collection/Iterator/SortedSetKeyTest.php on line 22

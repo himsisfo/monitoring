@@ -1,0 +1,2 @@
+[12-Mar-2015 21:59:32 Asia/Singapore] PHP Fatal error:  Cannot redeclare class SessionHandlerInterface in /home/pklstisa/public_html/monitoring/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Resources/stubs/SessionHandlerInterface.php on line 23
+[13-Mar-2015 23:21:55 Asia/Singapore] PHP Fatal error:  Cannot redeclare class SessionHandlerInterface in /home/pklstisa/public_html/monitoring/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Resources/stubs/SessionHandlerInterface.php on line 23

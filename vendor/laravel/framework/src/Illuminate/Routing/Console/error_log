@@ -1,0 +1,4 @@
+[12-Mar-2015 18:14:50 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\Console\Command' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/Routing/Console/MakeControllerCommand.php on line 8
+[13-Mar-2015 07:56:19 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\Console\Command' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/Routing/Console/MakeControllerCommand.php on line 8
+[13-Mar-2015 21:26:05 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\Console\Command' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/Routing/Console/MakeControllerCommand.php on line 8
+[16-Mar-2015 13:43:15 Asia/Singapore] PHP Fatal error:  Class 'Illuminate\Console\Command' not found in /home/pklstisa/public_html/monitoring/vendor/laravel/framework/src/Illuminate/Routing/Console/MakeControllerCommand.php on line 8

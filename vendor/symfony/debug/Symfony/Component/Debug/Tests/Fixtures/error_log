@@ -1,0 +1,1 @@
+[14-Mar-2015 16:54:11 Asia/Singapore] PHP Warning:  Class 'Symfony\Component\Debug\Tests\Fixtures\NotPSR0bis' not found in /home/pklstisa/public_html/monitoring/vendor/symfony/debug/Symfony/Component/Debug/Tests/Fixtures/ClassAlias.php on line 3

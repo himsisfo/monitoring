@@ -1,0 +1,3 @@
+[11-Mar-2015 18:51:37 Asia/Singapore] PHP Fatal error:  Class 'PHPParser_Lexer' not found in /home/pklstisa/public_html/monitoring/vendor/nikic/php-parser/lib/PHPParser/Lexer/Emulative.php on line 7
+[14-Mar-2015 07:00:04 Asia/Singapore] PHP Fatal error:  Class 'PHPParser_Lexer' not found in /home/pklstisa/public_html/monitoring/vendor/nikic/php-parser/lib/PHPParser/Lexer/Emulative.php on line 7
+[16-Mar-2015 20:03:12 Asia/Singapore] PHP Fatal error:  Class 'PHPParser_Lexer' not found in /home/pklstisa/public_html/monitoring/vendor/nikic/php-parser/lib/PHPParser/Lexer/Emulative.php on line 7

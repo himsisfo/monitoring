@@ -1,0 +1,3 @@
+[13-Mar-2015 07:08:03 Asia/Singapore] PHP Fatal error:  Class 'Geocoder\Tests\TestCase' not found in /home/pklstisa/public_html/monitoring/vendor/willdurand/geocoder/tests/Geocoder/Tests/Formatter/FormatterTest.php on line 13
+[13-Mar-2015 23:24:43 Asia/Singapore] PHP Fatal error:  Class 'Geocoder\Tests\TestCase' not found in /home/pklstisa/public_html/monitoring/vendor/willdurand/geocoder/tests/Geocoder/Tests/Formatter/FormatterTest.php on line 13
+[14-Mar-2015 12:06:09 Asia/Singapore] PHP Fatal error:  Class 'Geocoder\Tests\TestCase' not found in /home/pklstisa/public_html/monitoring/vendor/willdurand/geocoder/tests/Geocoder/Tests/Formatter/FormatterTest.php on line 13
