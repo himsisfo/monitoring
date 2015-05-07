@@ -36,7 +36,7 @@ function showMaps() {
 
                         colorAxis: {
                             min: 0,
-                            max: 6000,
+                            max: 3000,
                             minColor: '#E0F7FA',
                             maxColor: '#006064',       
                         },
