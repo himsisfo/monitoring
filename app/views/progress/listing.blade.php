@@ -141,7 +141,11 @@
 
 @section('script')
   @parent
-
+    <script>
+        $(document).ready(function(){
+                $("#listing1").addClass("sublistactive");
+            });
+        </script>
     <script>
       $(document).ready(function() {
           $('#tablecirebon').dataTable( {

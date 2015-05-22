@@ -49,31 +49,33 @@ var Script = function () {
     });
 
     $('.fa-bars').click(function () {
+        $.getScript("js/peta.js");
+        $.getScript("js/daily.js");
         if ($('#sidebar > ul').is(":visible") === true) {
-            $('#main-content').css({
-                'margin-left': '0px'
-            });
-            $('#sidebar').css({
-                'margin-left': '-210px'
-            });
-            $('#sidebar > ul').hide();
+            $('#main-content').animate({
+                marginLeft: "0"
+                }, 500);
+            $('#sidebar').animate({
+                marginLeft: "-210px"
+            }, 500);
+            $('#sidebar > ul').fadeOut(500);            
             $("#container").addClass("sidebar-closed");
         } else {
-            $('#main-content').css({
-                'margin-left': '210px'
-            });
-            $('#sidebar > ul').show();
-            $('#sidebar').css({
-                'margin-left': '0'
-            });
+            $('#main-content').animate({
+              marginLeft: "210px"
+            }, 500);
+            $('#sidebar > ul').fadeIn(500);
+            $('#sidebar').animate({
+             marginLeft: "0px"
+            }, 500);
             $("#container").removeClass("sidebar-closed");
         }
     });
 
 // custom scrollbar
-    $("#sidebar").niceScroll({styler:"fb",cursorcolor:"#4ECDC4", cursorwidth: '3', cursorborderradius: '10px', background: '#404040', spacebarenabled:false, cursorborder: ''});
+    $("#sidebar").niceScroll({styler:"fb",cursorcolor:"#00A29C", cursorwidth: '3', cursorborderradius: '10px', background: '#404040', spacebarenabled:false, cursorborder: ''});
 
-    $("html").niceScroll({styler:"fb",cursorcolor:"#4ECDC4", cursorwidth: '6', cursorborderradius: '10px', background: '#404040', spacebarenabled:false,  cursorborder: '', zindex: '1000'});
+    $("html").niceScroll({styler:"fb",cursorcolor:"#00A29C", cursorwidth: '6', cursorborderradius: '10px', background: '#404040', spacebarenabled:false,  cursorborder: '', zindex: '1000'});
 
 // widget tools
 

@@ -93,5 +93,30 @@
       
           </section><! --/wrapper -->
         </section>
+        @if($data['title']==='Dosen')
+          <script>
+            $(document).ready(function(){
+              $("#dosen1").addClass("sublistactive");
+            });
+          </script>    
+        @elseif($data['title']==='Kortim')
+          <script>
+            $(document).ready(function(){
+              $("#kortim1").addClass("sublistactive");
+            });
+          </script>
+        @elseif($data['title']==='Korwil')
+         <script>
+            $(document).ready(function(){
+              $("#korwil1").addClass("sublistactive");
+            });
+          </script>
+        @elseif($data['title']==='Korlap')
+         <script>
+            $(document).ready(function(){
+              $("#korlap1").addClass("sublistactive");
+            });
+          </script>
+        @endif
 @stop
 

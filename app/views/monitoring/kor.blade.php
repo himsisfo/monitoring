@@ -92,5 +92,30 @@
       
           </section><! --/wrapper -->
         </section>
+        @if($data['title']==='Tim Dosen')
+          <script>
+            $(document).ready(function(){
+              $("#dosen1").addClass("sublistactive");
+            });
+          </script>    
+        @elseif($data['title']==='Koordinator Tim')
+          <script>
+            $(document).ready(function(){
+              $("#kortim1").addClass("sublistactive");
+            });
+          </script>
+        @elseif($data['title']==='Koordinator Wilayah')
+         <script>
+            $(document).ready(function(){
+              $("#korwil1").addClass("sublistactive");
+            });
+          </script>
+        @elseif($data['title']==='Koordinator Lapangan')
+         <script>
+            $(document).ready(function(){
+              $("#korlap1").addClass("sublistactive");
+            });
+          </script>
+        @endif
 @stop
 

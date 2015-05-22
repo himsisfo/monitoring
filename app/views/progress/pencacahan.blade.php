@@ -131,6 +131,12 @@
   @parent
 
     <script>
+        $(document).ready(function(){
+                $("#pencacahan1").addClass("sublistactive");
+            });
+    </script> 
+
+    <script>
       $(document).ready(function() {
           $('#tablecirebon').dataTable( {
               "bServerSide": true,

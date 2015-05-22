@@ -49,8 +49,8 @@
                           <span>Progress</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="listing">Listing</a></li>
-                          <li><a  href="pencacahan">Pencacahan</a></li>
+                          <li><a id="listing1" href="listing">Listing</a></li>
+                          <li><a id="pencacahan1" href="pencacahan">Pencacahan</a></li>
                       </ul>
                   </li>
                   <li class="sub-menu">
@@ -59,10 +59,10 @@
                           <span>Organisasi Lapangan</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="dosen">Dosen</a></li>
-                          <li><a  href="kortim">Kortim</a></li>
-                          <li><a  href="korwil">Korwil</a></li>
-                          <li><a  href="korlap">Korlap</a></li>
+                          <li><a id="dosen1" href="dosen">Dosen</a></li>
+                          <li><a id="kortim1" href="kortim">Kortim</a></li>
+                          <li><a id="korwil1" href="korwil">Korwil</a></li>
+                          <li><a id="korlap1" href="korlap">Korlap</a></li>
                       </ul>
                   </li>
                <!--   
@@ -83,8 +83,8 @@
                           <span>Tabulasi</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="tabulasi-se">Ekonomi</a></li>
-                          <li><a  href="tabulasi-sk">Sosial Kependudukan</a></li>
+                          <li><a id="se1" href="tabulasi-se">Ekonomi</a></li>
+                          <li><a id="sk1" href="tabulasi-sk">Sosial Kependudukan</a></li>
                       </ul>
                   </li>
                   
@@ -101,8 +101,8 @@
                           <span>Extra</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="#">FAQ</a></li>
-                          <li><a  href="game">Game</a></li>
+                          <li><a id="faq1" href="#">FAQ</a></li>
+                          <li><a id="game1" href="game">Game</a></li>
                       </ul>
                   </li>
                   <li class="sub-menu">
@@ -111,8 +111,8 @@
                           <span>CAPI <small>special</small></span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="capi-se">Ekonomi</a></li>
-                          <li><a  href="capi-sk">Sosial Kependudukan</a></li>
+                          <li><a id="capi-eko1" href="capi-se">Ekonomi</a></li>
+                          <li><a id="capi-sk1" href="capi-sk">Sosial Kependudukan</a></li>
                       </ul>
                   </li>
 
