@@ -7,11 +7,10 @@
                   <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
               </div>
             <!--logo start-->
-            <a href="http://localhost/sisjarlap/public" class="logo"><b>PKL54 - Monitoring Survey</b></a>
+            <a href="http://localhost/monitoring/public" class="logo"><b>PKL54 - Monitoring Survey</b></a>
             <!--logo end-->
         
    
-
             <div class="top-menu">
                 <ul class="nav pull-right top-menu">
                     @if (!Auth::guest())

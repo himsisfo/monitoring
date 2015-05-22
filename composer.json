@@ -9,7 +9,9 @@
 		"twitter/bootstrap": "*",
 		"toin0u/geocoder-laravel": "@stable",
 		"tinymce/tinymce": "dev-master",
-		"creitive/breadcrumbs": "~1.0"
+		"creitive/breadcrumbs": "~1.0",
+		"mews/captcha": "1.0.*",
+		"chumper/datatable": "2.*"
 	},
 	"autoload": {
 		"classmap": [

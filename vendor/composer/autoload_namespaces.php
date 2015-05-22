@@ -30,6 +30,7 @@ return array(
     'PHPParser' => array($vendorDir . '/nikic/php-parser/lib'),
     'Normalizer' => array($vendorDir . '/patchwork/utf8/class'),
     'Net' => array($vendorDir . '/phpseclib/phpseclib/phpseclib'),
+    'Mews\\Captcha' => array($vendorDir . '/mews/captcha/src'),
     'Math' => array($vendorDir . '/phpseclib/phpseclib/phpseclib'),
     'Jeremeamia\\SuperClosure' => array($vendorDir . '/jeremeamia/SuperClosure/src'),
     'Illuminate' => array($vendorDir . '/laravel/framework/src'),
@@ -38,6 +39,7 @@ return array(
     'Crypt' => array($vendorDir . '/phpseclib/phpseclib/phpseclib'),
     'Creitive\\Breadcrumbs\\' => array($vendorDir . '/creitive/breadcrumbs/src'),
     'ClassPreloader' => array($vendorDir . '/classpreloader/classpreloader/src'),
+    'Chumper\\Datatable' => array($vendorDir . '/chumper/datatable/src'),
     'Carbon' => array($vendorDir . '/nesbot/carbon/src'),
     'Boris' => array($vendorDir . '/d11wtq/boris/lib'),
 );

@@ -1,5 +1,0 @@
-[11-Mar-2015 02:24:44 Asia/Singapore] PHP Fatal error:  Class 'Patchwork\PHP\Shim\Normalizer' not found in /home/pklstisa/public_html/monitoring/vendor/patchwork/utf8/class/Normalizer.php on line 16
-[11-Mar-2015 14:39:06 Asia/Singapore] PHP Fatal error:  Class 'Patchwork\PHP\Shim\Normalizer' not found in /home/pklstisa/public_html/monitoring/vendor/patchwork/utf8/class/Normalizer.php on line 16
-[11-Mar-2015 21:34:37 Asia/Singapore] PHP Fatal error:  Class 'Patchwork\PHP\Shim\Normalizer' not found in /home/pklstisa/public_html/monitoring/vendor/patchwork/utf8/class/Normalizer.php on line 16
-[13-Mar-2015 18:04:37 Asia/Singapore] PHP Fatal error:  Class 'Patchwork\PHP\Shim\Normalizer' not found in /home/pklstisa/public_html/monitoring/vendor/patchwork/utf8/class/Normalizer.php on line 16
-[16-Mar-2015 10:02:15 Asia/Singapore] PHP Fatal error:  Class 'Patchwork\PHP\Shim\Normalizer' not found in /home/pklstisa/public_html/monitoring/vendor/patchwork/utf8/class/Normalizer.php on line 16

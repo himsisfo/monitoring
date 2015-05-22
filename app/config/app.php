@@ -39,7 +39,7 @@ return array(
 	|
 	*/
 
-	'timezone' => 'UTC',
+	'timezone' => 'Asia/Jakarta',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -121,6 +121,8 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+		'Mews\Captcha\CaptchaServiceProvider',
+		'Chumper\Datatable\DatatableServiceProvider' 
 
 	),
 
@@ -189,6 +191,8 @@ return array(
 		'URL'               => 'Illuminate\Support\Facades\URL',
 		'Validator'         => 'Illuminate\Support\Facades\Validator',
 		'View'              => 'Illuminate\Support\Facades\View',
+		'Captcha'		    => 'Mews\Captcha\Facades\Captcha',
+		'Datatable' 		=> 'Chumper\Datatable\Facades\DatatableFacade'
 
 	),
 

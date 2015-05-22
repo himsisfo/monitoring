@@ -62,6 +62,22 @@ Route::group(array('before' => 'auth'), function()
 });
 
 
+// admin routes
+Route::group(array('prefix' => 'admin', 'before' => array('auth|admin')), function()
+{
+	// admin routes here...
+	Route::get('/','AdminController@showDashboard');
+
+	Route::get('calendar','AdminController@getCalendar');
+	Route::get('user',array('as'=>'users', 'uses'=>'AdminController@getUser'));
+
+	Route::get('logout', 'SiteController@getLogout');
+
+	Route::get('api/users', array('as'=>'api.users', 'uses'=>'AdminController@getDatatable'));
+});
+
+
+
 // Authentication
 Route::get('login', array('as' => 'login', 'uses' => 'SiteController@showLogin'));
 Route::post('login', 'SiteController@postLogin');

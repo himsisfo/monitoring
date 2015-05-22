@@ -13,5 +13,8 @@ class Kortim extends Eloquent {
 		$this->belongsTo('User');
 	}
 
+	function bebanListing(){
+		
+	}
 
 }

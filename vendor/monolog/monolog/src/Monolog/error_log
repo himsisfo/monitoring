@@ -1,4 +1,0 @@
-[10-Mar-2015 12:46:00 Asia/Singapore] PHP Fatal error:  Interface 'Psr\Log\LoggerInterface' not found in /home/pklstisa/public_html/monitoring/vendor/monolog/monolog/src/Monolog/Logger.php on line 28
-[10-Mar-2015 13:09:31 Asia/Singapore] PHP Fatal error:  Interface 'Psr\Log\LoggerInterface' not found in /home/pklstisa/public_html/monitoring/vendor/monolog/monolog/src/Monolog/Logger.php on line 28
-[13-Mar-2015 06:59:16 Asia/Singapore] PHP Fatal error:  Interface 'Psr\Log\LoggerInterface' not found in /home/pklstisa/public_html/monitoring/vendor/monolog/monolog/src/Monolog/Logger.php on line 28
-[16-Mar-2015 02:14:16 Asia/Singapore] PHP Fatal error:  Interface 'Psr\Log\LoggerInterface' not found in /home/pklstisa/public_html/monitoring/vendor/monolog/monolog/src/Monolog/Logger.php on line 28

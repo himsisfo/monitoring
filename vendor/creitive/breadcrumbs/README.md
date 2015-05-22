@@ -1,4 +1,22 @@
-[![Build Status](https://travis-ci.org/CreITive/Laravel-4-Breadcrumbs.png)](https://travis-ci.org/CreITive/Laravel-4-Breadcrumbs) [![Latest Stable Version](https://poser.pugx.org/creitive/breadcrumbs/version.png)](https://packagist.org/packages/creitive/breadcrumbs) [![Total Downloads](https://poser.pugx.org/creitive/breadcrumbs/d/total.png)](https://packagist.org/packages/creitive/breadcrumbs) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/CreITive/laravel-4-breadcrumbs/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![Build Status](https://travis-ci.org/creitive/breadcrumbs.png)](https://travis-ci.org/creitive/breadcrumbs) [![Latest Stable Version](https://poser.pugx.org/creitive/breadcrumbs/version.png)](https://packagist.org/packages/creitive/breadcrumbs) [![Total Downloads](https://poser.pugx.org/creitive/breadcrumbs/d/total.png)](https://packagist.org/packages/creitive/breadcrumbs)
+
+> ## Deprecation notice!
+>
+> This branch, and the version `1.0` of this package will no longer be maintained. The recommended upgrade path for existing Laravel 4 users is to remove the dependency on `creitive/breadcrumbs:~1.0` and require the `creitive/laravel4-breadcrumbs` package instead. This should be trivial:
+>
+> ```sh
+> composer remove creitive/breadcrumbs
+> composer require creitive/laravel4-breadcrumbs
+> ```
+>
+> If you want to use Laravel 5, require the `creitive/laravel5-breadcrumbs` package instead.
+>
+> None of the functionality should be affected, and this is all you should do in order to update your apps.
+>
+> Please visit this repo's `master` branch for more info.
+>
+> The documentation below is preserved for the users who haven't had a chance to upgrade yet.
+
 
 Laravel 4 Breadcrumbs
 =====================

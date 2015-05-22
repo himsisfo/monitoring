@@ -55,9 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'pklstisa_monitoringsurvey',
-			'username'  => 'pklstisa_smsgate',
-			'password'  => 'smsgateway',
+			'database'  => 'monitoring',
+			'username'  => 'root',
+			'password'  => '',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

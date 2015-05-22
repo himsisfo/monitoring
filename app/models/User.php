@@ -41,6 +41,10 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
         throw new UnexpectedValueException;
     }
 
+    public function isAdmin(){
+    	return $this->level === 1;
+    }
+
 	public function korwil(){
 		return $this->hasOne('Korwil');
 	}	

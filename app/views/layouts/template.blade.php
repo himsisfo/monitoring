@@ -17,9 +17,7 @@
         <meta name="author" content="Dashboard">
         
         <!-- Bootstrap core CSS -->
-        <link href="assets/css/bootstrap.css" rel="stylesheet">
-        
-        <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+        {{ HTML::style('assets/css/bootstrap.css') }}
         <!-- Bootstrap core CSS -->
 <!--        {{ HTML::style('assets/css/bootstrap.css') }}-->
 

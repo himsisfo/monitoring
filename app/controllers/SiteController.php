@@ -7,14 +7,80 @@ class SiteController extends Controller {
     }
 
 	public function welcome(){
-        $data['usaha'] = Progrec::where('kegiatan','=','CLEANING USAHA')->get();
-        $data['pekerja'] = Progrec::where('kegiatan','=','CLEANING PEKERJA')->get();
-        $data['user'] = Auth::user(); 
+        //batas waktu listing sebagai penentu display
+        $batas = strtotime('2015-03-15 00:00:00');
+        $res = time() - $batas;
+        if( $res < 0 ) {
+                $title = "listing";
+                $petaid = "jabar_listing";
+                $data['cirebon_listing'] = Nbsse::where('kota','=','09')->sum('progressListing');
+                $data['sukabumi_listing'] = Nbsse::where('kota','=','02')->sum('progressListing');
+                $data['indramayu_listing'] = Nbssk::where('kota','=','12')->sum('progressListing');
+                $data['bandung_listing'] = Nbssk::where('kota','=','73')->sum('progressListing');
+
+                $data['cirebon_bebanListing'] = Nbsse::where('kota','=','09')->sum('bebanListing');
+                $data['sukabumi_bebanListing'] = Nbsse::where('kota','=','02')->sum('bebanListing');
+                $data['indramayu_bebanListing'] = Nbssk::where('kota','=','12')->sum('bebanListing');
+                $data['bandung_bebanListing'] = Nbssk::where('kota','=','73')->sum('bebanListing');
+                
+                $cir1 = $data['cirebon_listing']/$data['cirebon_bebanListing']*100;
+                $cir2 = 100 - $cir1;
+                
+                $suk1 = $data['sukabumi_listing']/$data['sukabumi_bebanListing']*100;
+                $suk2 = 100 - $suk1;
+                
+                $ind1 = $data['indramayu_listing']/$data['indramayu_bebanListing']*100;
+                $ind2 = 100 - $ind1;
+                
+                $ban1 = $data['bandung_listing']/$data['bandung_bebanListing']*100;
+                $ban2 = 100 - $ban1;
+        }
+        else{
+            $title = "cacah";
+            $petaid = "jabar_cacah";
+            
+            $data['cirebon_cacah'] = Nbsse::where('kota','=','09')->sum('cacah');
+            $data['sukabumi_cacah'] = Nbsse::where('kota','=','02')->sum('cacah');
+            $data['indramayu_cacah'] = Nbssk::where('kota','=','12')->sum('cacah');
+            $data['bandung_cacah'] = Nbssk::where('kota','=','73')->sum('cacah');
+
+            $data['cirebon_bebanCacah'] = Nbsse::where('kota','=','09')->sum('maxcacah');
+            $data['sukabumi_bebanCacah'] = Nbsse::where('kota','=','02')->sum('maxcacah');
+            $data['indramayu_bebanCacah'] = Nbssk::where('kota','=','12')->sum('maxcacah');
+            $data['bandung_bebanCacah'] = Nbssk::where('kota','=','73')->sum('maxcacah');
+            
+            $cir1 = $data['cirebon_cacah']/$data['cirebon_bebanCacah']*100;
+            $cir2 = 100 - $cir1;
+
+            $suk1 = $data['sukabumi_cacah']/$data['sukabumi_bebanCacah']*100;
+            $suk2 = 100 - $suk1;
+
+            $ind1 = $data['indramayu_cacah']/$data['indramayu_bebanCacah']*100;
+            $ind2 = 100 - $ind1;
+
+            $ban1 = $data['bandung_cacah']/$data['bandung_bebanCacah']*100;
+            $ban2 = 100 - $ban1;
+           
+        }
+
+        $data = array(
+            'cir1'  => $cir1,
+            'cir2'  => $cir2,
+            'suk1'  => $suk1,
+            'suk2'  => $suk2,
+            'ind1'  => $ind1,
+            'ind2'  => $ind2,
+            'ban1'  => $ban1,
+            'ban2'  => $ban2,
+            'title' => $title,
+            'petaid' => $petaid,
+        );
+
 		return View::make('monitoring/index')->with('data',$data);
 	}
 
 
-        public function showRegister(){
+    public function showRegister(){
         return View::make('monitoring/register');        
     }
 
@@ -139,8 +205,13 @@ class SiteController extends Controller {
             // Try to log the user in.
             if (Auth::attempt($userdata))
             {
-                // Redirect to homepage
-                return Redirect::to('');
+                 if(Auth::user()->isAdmin()){
+                    return Redirect::to('admin/');
+                }
+                else{
+                    // Redirect to homepage
+                    return Redirect::to('')->with('success', 'You have logged in successfully');
+                }
             }
             else
             {
