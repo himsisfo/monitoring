@@ -3,7 +3,12 @@
 class SiteController extends Controller {
 
 	public function __construct() {
-        $this->beforeFilter('csrf', array('on'=>'post'));
+        $this->beforeFilter('csrf', array('on' => array('post', 'put', 'patch', 'delete')));
+    }
+
+    public function getCurrentTime(){
+        $mytime = Carbon\Carbon::now();
+        return $mytime->toDateTimeString();
     }
 
 	public function welcome(){
