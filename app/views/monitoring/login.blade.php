@@ -84,7 +84,6 @@
 		                  	<div class="modal-body text-center">	
 								<div class="alert alert-danger" role="alert">
 									<h4>hubungi adminganteng(087863969334 / 085640397405)</h4>
-									<h3>admin@pkl.stis.ac.id</h3>
 
 								</div>
 		                  	</div>

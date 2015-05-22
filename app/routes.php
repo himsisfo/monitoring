@@ -38,7 +38,8 @@ Route::group(array('before' => 'auth'), function()
 	Route::get('game','GameController@showGame');
 	
 	//show problems
-        Route::get('problems','SiteController@showProblems');	
+    Route::get('problems','SiteController@showProblems');	
+	Route::get('api/problems', array('as'=>'api.problems', 'uses'=>'SiteController@datatableProblems'));
 
 	//capi
 	Route::get('capi-se','CapiController@showListCapiSE');
@@ -58,6 +59,8 @@ Route::group(array('before' => 'auth'), function()
 	Route::get('password/change','PasswordController@getChangePassword');
 	Route::post('password/change','PasswordController@postChangePassword');
 
+	Route::get('api/listing/{idkabupaten}', array('as'=>'api.listing', 'uses'=>'ProgressController@datatablelisting'));
+	Route::get('api/cacah/{idkabupaten}', array('as'=>'api.cacah', 'uses'=>'ProgressController@datatablecacah'));
 
 });
 
@@ -71,9 +74,13 @@ Route::group(array('prefix' => 'admin', 'before' => array('auth|admin')), functi
 	Route::get('calendar','AdminController@getCalendar');
 	Route::get('user',array('as'=>'users', 'uses'=>'AdminController@getUser'));
 
+	Route::get('problems',array('as'=>'problems', 'uses'=>'AdminController@getProblems'));
+
 	Route::get('logout', 'SiteController@getLogout');
 
-	Route::get('api/users', array('as'=>'api.users', 'uses'=>'AdminController@getDatatable'));
+	Route::get('api/users', array('as'=>'api.admin.users', 'uses'=>'AdminController@getDatatable'));
+
+	Route::get('api/problems', array('as'=>'api.admin.problems', 'uses'=>'AdminController@datatableProblems'));
 });
 
 

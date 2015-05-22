@@ -26,6 +26,8 @@
         {{ HTML::style('assets/css/zabuto_calendar.css') }}
         {{ HTML::style('assets/js/gritter/css/jquery.gritter.css') }}
         {{ HTML::style('assets/lineicons/style.css') }}
+        {{ HTML::style('//cdn.datatables.net/plug-ins/1.10.7/integration/bootstrap/3/dataTables.bootstrap.css') }}
+   
 
         <!-- Custom styles for this template -->
         {{ HTML::style('assets/css/style.css') }}
@@ -34,8 +36,10 @@
         
         {{ HTML::script('assets/js/chart-master/Chart.js') }}
         {{ HTML::script('assets/js/jquery.js') }}
-        {{ HTML::script('assets/js/jquery-1.8.3.min.js')}}
-            
+        {{ HTML::script('//cdn.datatables.net/1.10.7/js/jquery.dataTables.js') }}
+       
+        {{ HTML::script('//cdn.datatables.net/plug-ins/1.10.7/integration/bootstrap/3/dataTables.bootstrap.js')}}
+        
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -87,8 +91,6 @@
     {{ HTML::script('assets/js/jquery.scrollTo.min.js')}}
     {{ HTML::script('assets/js/jquery.nicescroll.js')}}
     {{ HTML::script('assets/js/jquery.sparkline.js')}}
-
-
 
 
         <!--highcharts JS-->
@@ -166,6 +168,9 @@
             console.log('nav ' + nav + ' to: ' + to.month + '/' + to.year);
         }
     </script>
+    
+    @section('script')
+    @show
   
 
   </body>

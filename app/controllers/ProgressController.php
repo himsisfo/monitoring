@@ -8,6 +8,7 @@ class ProgressController extends Controller {
     }
     
     public function getProgress(){
+        
         $data['cirebon_listing'] = Nbsse::where('kota','=','09')->sum('progressListing');
         $data['sukabumi_listing'] = Nbsse::where('kota','=','02')->sum('progressListing');
         $data['indramayu_listing'] = Nbssk::where('kota','=','12')->sum('progressListing');
@@ -78,4 +79,35 @@ class ProgressController extends Controller {
     	return View::make('progress/pencacahan')->with('data',$data);  
     }
 
+    public function datatableListing($idkabupaten){
+        return Datatable::collection(Kecamatan::where('kota','=',$idkabupaten)->get())
+        ->showColumns('namakecamatan')
+        ->addColumn('progresslisting',function($model)
+        {
+            return $model->getProgressListing();
+        })
+        ->addColumn('bebanlisting',function($model)
+        {
+            return $model->getBebanListing();
+        })
+        ->searchColumns('namakecamatan')
+        ->orderColumns('namakecamatan','progresslisting','bebanlisting')
+        ->make();
+    }
+
+    public function datatableCacah($idkabupaten){
+        return Datatable::collection(Kecamatan::where('kota','=',$idkabupaten)->get())
+        ->showColumns('namakecamatan')
+        ->addColumn('progresscacah',function($model)
+        {
+            return $model->getProgressCacah();
+        })
+        ->addColumn('bebancacah',function($model)
+        {
+            return $model->getBebanCacah();
+        })
+        ->searchColumns('namakecamatan')
+        ->orderColumns('namakecamatan','progresscacah','bebancacah')
+        ->make();    
+    }
 }

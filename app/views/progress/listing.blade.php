@@ -1,5 +1,10 @@
 @extends('layouts.template')
 
+  @section('head')
+  @parent
+
+  @stop    
+
 @section('title')
 @parent
 :: Home
@@ -8,11 +13,10 @@
 @section('content')
 
 
-        
-
 <section id="main-content">
     <section class="wrapper site-min-height">
-        <!-- page start-->
+        <!-- page start-->  
+
         <div class="row content-panel">
                 <div class="panel-heading">
                         <ul class="nav nav-tabs nav-justified">
@@ -34,221 +38,79 @@
 
                 <div class="panel-body">
                         <div class="tab-content">
-                            <div id="cirebon" class="tab-pane fade in active" style="min-width: 300px; height: 500px; margin: 0 auto;">
-                            <h4>Progress Listing Kabupaten Cirebon</h4>
-                            <p>Berikut adalah tabel yang menyatakan banyaknya Blok Sensus yang telah 
-                                di listing dan banyaknya Blok Sensus di kecamatan terpilih di Kab. Cirebon.</p>
-                            <table class="table table-striped table-bordered table-hover table-condensed">
-                                <thead>
-                                  <tr>
-                                    <th class="text-center"><b>Wilayah</b></th>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '09' )
-                                    <th class="text-center"><b>{{$row['namakecamatan']}}</b></th>
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td class="text-center"><b>Progress Listing</b></td>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '09' )
-                                    <?php 
-                                     	  $ddd = Nbsse::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','09')->get();
-                                          $aa = 0;
-                                          $bb = 0;
-                                          foreach($ddd as $dd){
-                                            $aa+=$dd['progressListing'];
-                                            $bb+=$dd['bebanListing'];
-                                          }
-                                    ?>
-                                    <td class="text-center">{{$aa}} <br> (<?php echo number_format((float)$aa/$bb*100, 2, '.', ''); ?>%)</td>
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                  <tr>
-                                    <td class="text-center"><b>Beban Listing</b></td>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '09' )
-                                    <?php 
-                                     	  $ddd = Nbsse::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','09')->get();
-                                          $aa = 0;
-                                          $bb = 0;
-                                          foreach($ddd as $dd){
-                                            $aa+=$dd['progressListing'];
-                                            $bb+=$dd['bebanListing'];
-                                          }
-                                    ?>
-                                    <td class="text-center">{{$bb}}</td>
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                </tbody>
-                            </table>
+                            <div id="cirebon" class="tab-pane fade in active" style="min-width: 300px; min-height: 500px; margin: 0 auto;">
+                              <h4>Progress Listing Kabupaten Cirebon</h4>
+                              <p>Berikut adalah tabel yang menyatakan banyaknya Blok Sensus yang telah 
+                                  di listing dan banyaknya Blok Sensus di kecamatan terpilih di Kab. Cirebon.</p>
+                              <div>                              
+                                <table id="tablecirebon" class="table table-bordered" cellspacing="0" width="100%">
+                                    
+                                    <thead>
+                                        <tr>
+                                            <th>Nama Kecamatan</th>
+                                            <th>Progress Listing</th>
+                                            <th>Beban Listing</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                              </div>
                             </div>
                             
-                            <div id="sukabumi" class="tab-pane fade active" style="min-width: 300px; height: 500px; margin: 0 auto;">
-                            <h4>Progress Listing Kabupaten Sukabumi</h4>
-                            <p>Berikut adalah tabel yang menyatakan banyaknya Blok Sensus yang telah 
-                                di listing dan banyaknya Blok Sensus di kecamatan terpilih di Kab. Sukabumi.</p>
-                            <table class="table table-striped table-bordered table-hover table-condensed">
-                                <thead>
-                                  <tr>
-                                    <th class="text-center"><b>Wilayah</b></th>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '02' )
-                                    <th class="text-center"><b>{{$row['namakecamatan']}}</b></th>
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td class="text-center"><b>Progress Listing</b></td>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '02' )
-                                    <?php 
-                                     	  $ddd = Nbsse::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','02')->get();
-                                          $aa = 0;
-                                          $bb = 0;
-                                          foreach($ddd as $dd){
-                                            $aa+=$dd['progressListing'];
-                                            $bb+=$dd['bebanListing'];
-                                          }
-                                    ?>
-                                    <td class="text-center">{{$aa}} <br> (<?php echo number_format((float)$aa/$bb*100, 2, '.', ''); ?>%)</td>
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                  <tr>
-                                    <td class="text-center"><b>Beban Listing</b></td>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '02' )
-                                    <?php 
-                                     	  $ddd = Nbsse::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','02')->get();
-                                          $aa = 0;
-                                          $bb = 0;
-                                          foreach($ddd as $dd){
-                                            $aa+=$dd['progressListing'];
-                                            $bb+=$dd['bebanListing'];
-                                          }
-                                    ?>
-                                    <td class="text-center">{{$bb}}</td>
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                </tbody>
-                            </table>
+                            <div id="sukabumi" class="tab-pane fade" style="min-width: 300px; min-height: 500px; margin: 0 auto;">
+                              <h4>Progress Listing Kabupaten Sukabumi</h4>
+                              <p>Berikut adalah tabel yang menyatakan banyaknya Blok Sensus yang telah 
+                                  di listing dan banyaknya Blok Sensus di kecamatan terpilih di Kab. Sukabumi.</p>
+                              <table id="tablesukabumi" class="table table-bordered" cellspacing="0" width="100%">
+                                  
+                                  <thead>
+                                      <tr>
+                                          <th>Nama Kecamatan</th>
+                                          <th>Progress Listing</th>
+                                          <th>Beban Listing</th>
+                                      </tr>
+                                  </thead>
+                                  <tbody>
+                                  </tbody>
+                              </table> 
                             </div>
                             
-                            <div id="bandung" class="tab-pane fade active" style="min-width: 300px; height: 500px; margin: 0 auto;">
+                            <div id="bandung" class="tab-pane fade" style="min-width: 300px; min-height: 500px; margin: 0 auto;">
                             <h4>Progress Listing Kota Bandung</h4>
                             <p>Berikut adalah tabel yang menyatakan banyaknya Blok Sensus yang telah 
                                 di listing dan banyaknya Blok Sensus di kecamatan terpilih di Kota Bandung.</p>
 
-                            <table class="table table-striped table-bordered table-hover table-condensed">
-                                <thead>
-                                  <tr>
-                                    <th class="text-center"><b>Wilayah</b></th>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '73' )
-                                    <th class="text-center"><b>{{$row['namakecamatan']}}</b></th>
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td class="text-center"><b>Progress Listing</b></td>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '73' )
-                                    <?php 
-                                     	  $ddd = Nbssk::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','73')->get();
-                                          $aa = 0;
-                                          $bb = 0;
-                                          foreach($ddd as $dd){
-                                            $aa+=$dd['progressListing'];
-                                            $bb+=$dd['bebanListing'];
-                                          }
-                                    ?>
-                                    <td class="text-center">{{$aa}} <br> (<?php echo number_format((float)$aa/$bb*100, 2, '.', ''); ?>%)</td>
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                  <tr>
-                                    <td class="text-center"><b>Beban Listing</b></td>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '73' )
-                                    <?php 
-                                     	  $ddd = Nbssk::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','73')->get();
-                                          $aa = 0;
-                                          $bb = 0;
-                                          foreach($ddd as $dd){
-                                            $aa+=$dd['progressListing'];
-                                            $bb+=$dd['bebanListing'];
-                                          }
-                                    ?>
-                                    <td class="text-center">{{$bb}}</td>
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                </tbody>
-                            </table>
+                              <table id="tablebandung" class="table table-bordered" cellspacing="0" width="100%">
+                                  
+                                  <thead>
+                                      <tr>
+                                          <th>Nama Kecamatan</th>
+                                          <th>Progress Listing</th>
+                                          <th>Beban Listing</th>
+                                      </tr>
+                                  </thead>
+                                  <tbody>
+                                  </tbody>
+                              </table>
                             </div>
                             
-                            <div id="indramayu" class="tab-pane fade active" style="min-width: 300px; height: 500px; margin: 0 auto;">
+                            <div id="indramayu" class="tab-pane fade" style="min-width: 300px; min-height: 500px; margin: 0 auto;">
                             <h4>Progress Listing Kab Indramayu</h4>
                             <p>Berikut adalah tabel yang menyatakan banyaknya Blok Sensus yang telah 
                                 di listing dan banyaknya Blok Sensus di kecamatan terpilih di Kab. Indramayu.</p>
-                            <table class="table table-striped table-bordered table-hover table-condensed">
-                                <thead>
-                                  <tr>
-                                    <th class="text-center"><b>Wilayah</b></th>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '12' )
-                                    <th class="text-center"><b>{{$row['namakecamatan']}}</b></th>
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td class="text-center"><b>Progress Listing</b></td>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '12' )
-                                    <?php 
-                                     	  $ddd = Nbssk::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','12')->get();
-                                          $aa = 0;
-                                          $bb = 0;
-                                          foreach($ddd as $dd){
-                                            $aa+=$dd['progressListing'];
-                                            $bb+=$dd['bebanListing'];
-                                          }
-                                    ?>
-                                    <td class="text-center">{{$aa}} <br> (<?php echo number_format((float)$aa/$bb*100, 2, '.', ''); ?>%)</td>
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                  <tr>
-                                    <td class="text-center"><b>Beban Listing</b></td>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '12' )
-                                    <?php 
-                                     	  $ddd = Nbssk::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','12')->get();
-                                          $aa = 0;
-                                          $bb = 0;
-                                          foreach($ddd as $dd){
-                                            $aa+=$dd['progressListing'];
-                                            $bb+=$dd['bebanListing'];
-                                          }
-                                    ?>
-                                    <td class="text-center">{{$bb}}</td>
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                </tbody>
-                            </table>
+                              <table id="tableindramayu" class="table table-bordered" cellspacing="0" width="100%">
+                                  
+                                  <thead>
+                                      <tr>
+                                          <th>Nama Kecamatan</th>
+                                          <th>Progress Listing</th>
+                                          <th>Beban Listing</th>
+                                      </tr>
+                                  </thead>
+                                  <tbody>
+                                  </tbody>
+                              </table>
                             </div>
                             
 <!--                            <div id="progress" class="tab-pane fade active">
@@ -273,5 +135,32 @@
 		<style type="text/css">
                     //${demo.css}
 		</style>
+
                                     
 @stop
+
+@section('script')
+  @parent
+
+    <script>
+      $(document).ready(function() {
+          $('#tablecirebon').dataTable( {
+              "bServerSide": true,
+              "sAjaxSource": "http:\/\/localhost\/monitoring\/public\/api\/listing\/09",
+              
+          } );
+          $('#tablesukabumi').dataTable( {
+              "bServerSide": true,
+              "sAjaxSource": "http:\/\/localhost\/monitoring\/public\/api\/listing\/02",
+          } );
+          $('#tablebandung').dataTable( {
+              "bServerSide": true,
+              "sAjaxSource": "http:\/\/localhost\/monitoring\/public\/api\/listing\/73",
+          } );
+          $('#tableindramayu').dataTable( {
+              "bServerSide": true,
+              "sAjaxSource": "http:\/\/localhost\/monitoring\/public\/api\/listing\/12",
+          } );
+      } );
+    </script>
+  @stop

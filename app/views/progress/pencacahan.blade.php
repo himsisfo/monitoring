@@ -34,212 +34,72 @@
 
                 <div class="panel-body">
                         <div class="tab-content">
-                            <div id="cirebon" class="tab-pane fade in active" style="min-width: 300px; height: 500px; margin: 0 auto;">
+                            <div id="cirebon" class="tab-pane fade in active" style="min-width: 300px; min-height: 500px; margin: 0 auto;">
                             <h4>Progress Cacah Kabupaten Cirebon</h4>
                             <p>Berikut adalah progress pencacahan di Kab. Cirebon.</p>
-                            <table class="table table-striped table-bordered table-hover table-condensed">
-                                <thead>
-                                  <tr>
-                                    <th class="text-center"><b>Wilayah</b></th>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '09' )
-                                    <th class="text-center"><b>{{$row['namakecamatan']}}</b></th>
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                   <tr>
-                                    <td class="text-center"><b>Belum di Cleaning</b></td>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '09' )
-                                    <?php $ci = Nbsse::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','09')->sum('cacahnr') ;
-                                          $rul = Nbsse::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','09')->sum('maxcacah') ;
-                                            ?>
-                                    @if( $rul != 0 ) <td class="text-center"><?php echo $ci." (".number_format((float)($ci/$rul*100),2,'.','')."% )"; ?></td>
-                                    @else <td class="text-center"><?php echo "ERROR: BEBAN CACAH 0"; ?></td>
-                                    @endif
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                  <tr>
-                                    <td class="text-center"><b>Progress Cacah</b></td>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '09' )
-                                    <?php $ci = Nbsse::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','09')->sum('cacah') ;
-                                          $rul = Nbsse::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','09')->sum('maxcacah') ;
-                                            ?>
-                                    @if( $rul != 0 ) <td class="text-center"><?php echo $ci." (".number_format((float)($ci/$rul*100),2,'.','')."% )"; ?></td>
-                                    @else <td class="text-center"><?php echo "ERROR: BEBAN CACAH 0"; ?></td>
-                                    @endif
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                  <tr>
-                                    <td class="text-center"><b>Beban Cacah</b></td>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '09' )
-                                    <?php $rul = Nbsse::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','09')->sum('maxcacah') ; ?>
-                                    <td class="text-center"><?php echo $rul." ( 100% )"; ?></td>
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                </tbody>
-                            </table>
+                                <table id="tablecirebon" class="table table-bordered" cellspacing="0" width="100%">
+                                    
+                                    <thead>
+                                        <tr>
+                                            <th>Nama Kecamatan</th>
+                                            <th>Progress Cacah</th>
+                                            <th>Beban Cacah</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
                             </div>
                             
-                            <div id="sukabumi" class="tab-pane fade active" style="min-width: 300px; height: 500px; margin: 0 auto;">
+                            <div id="sukabumi" class="tab-pane fade" style="min-width: 300px; min-height: 500px; margin: 0 auto;">
                             <h4>Progress Cacah Kabupaten Sukabumi</h4>
                             <p>Berikut adalah progress pencacahan di Kab. Sukabumi.</p>
-                            <table class="table table-striped table-bordered table-hover table-condensed">
-                                <thead>
-                                  <tr>
-                                    <th class="text-center"><b>Wilayah</b></th>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '02' )
-                                    <th class="text-center"><b>{{$row['namakecamatan']}}</b></th>
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                   <tr>
-                                    <td class="text-center"><b>Belum di Cleaning</b></td>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '02' )
-                                    <?php $ci = Nbsse::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','02')->sum('cacahnr') ;
-                                          $rul = Nbsse::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','02')->sum('maxcacah') ;
-                                            ?>
-                                    @if( $rul != 0 ) <td class="text-center"><?php echo $ci." (".number_format((float)($ci/$rul*100),2,'.','')."% )"; ?></td>
-                                    @else <td class="text-center"><?php echo "ERROR: BEBAN CACAH 0"; ?></td>
-                                    @endif
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                  <tr>
-                                    <td class="text-center"><b>Progress Cacah</b></td>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '02' )
-                                    <?php $ci = Nbsse::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','02')->sum('cacah') ;
-                                          $rul = Nbsse::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','02')->sum('maxcacah') ;
-                                            ?>
-                                    @if( $rul != 0 ) <td class="text-center"><?php echo $ci." (".number_format((float)($ci/$rul*100),2,'.','')."% )"; ?></td>
-                                    @else <td class="text-center"><?php echo "ERROR: BEBAN CACAH 0"; ?></td>
-                                    @endif
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                  <tr>
-                                    <td class="text-center"><b>Beban Cacah</b></td>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '02' )
-                                    <?php $rul = Nbsse::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','02')->sum('maxcacah') ; ?>
-                                    <td class="text-center"><?php echo $rul." ( 100% )"; ?></td>
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                </tbody>
-                            </table>
+                                <table id="tablesukabumi" class="table table-bordered" cellspacing="0" width="100%">
+                                    
+                                    <thead>
+                                        <tr>
+                                            <th>Nama Kecamatan</th>
+                                            <th>Progress Cacah</th>
+                                            <th>Beban Cacah</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
                             </div>
                             
-                            <div id="bandung" class="tab-pane fade active" style="min-width: 300px; height: 500px; margin: 0 auto;">
+                            <div id="bandung" class="tab-pane fade" style="min-width: 300px; min-height: 500px; margin: 0 auto;">
                             <h4>Progress Cacah Kota Bandung</h4>
                             <p>Berikut adalah progress pencacahan di Kota Bandung.</p>
-                            <table class="table table-striped table-bordered table-hover table-condensed">
-                                <thead>
-                                  <tr>
-                                    <th class="text-center"><b>Wilayah</b></th>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '73' )
-                                    <th class="text-center"><b>{{$row['namakecamatan']}}</b></th>
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                   <tr>
-                                    <td class="text-center"><b>Non-Response</b></td>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '73' )
-                                    <?php $ci = Nbssk::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','73')->sum('cacahnr') ;
-                                          $rul = Nbssk::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','73')->sum('maxcacah') ;
-                                            ?>
-                                    <td class="text-center"><?php echo $ci." (".number_format((float)($ci/$rul*100),2,'.','')."% )"; ?></td>
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                  <tr>
-                                    <td class="text-center"><b>Progress Cacah</b></td>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '73' )
-                                    <?php $ci = Nbssk::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','73')->sum('cacah') ;
-                                          $rul = Nbssk::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','73')->sum('maxcacah') ;
-                                            ?>
-                                    <td class="text-center"><?php echo $ci." (".number_format((float)($ci/$rul*100),2,'.','')."% )"; ?></td>
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                  <tr>
-                                    <td class="text-center"><b>Beban Cacah</b></td>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '73' )
-                                    <?php $rul = Nbssk::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','73')->sum('maxcacah') ; ?>
-                                    <td class="text-center"><?php echo $rul." ( 100% )"; ?></td>
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                </tbody>
-                            </table>
+                                <table id="tablebandung" class="table table-bordered" cellspacing="0" width="100%">
+                                    
+                                    <thead>
+                                        <tr>
+                                            <th>Nama Kecamatan</th>
+                                            <th>Progress Cacah</th>
+                                            <th>Beban Cacah</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
                             </div>
                             
-                            <div id="indramayu" class="tab-pane fade active" style="min-width: 300px; height: 500px; margin: 0 auto;">
+                            <div id="indramayu" class="tab-pane fade" style="min-width: 300px; height: 500px; margin: 0 auto;">
                             <h4>Progress Cacah Kab Indramayu</h4>
                             <p>Berikut adalah progress pencacahan di Kab. Indramayu.</p>
-                            <table class="table table-striped table-bordered table-hover table-condensed">
-                                <thead>
-                                  <tr>
-                                    <th class="text-center"><b>Wilayah</b></th>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '12' )
-                                    <th class="text-center"><b>{{$row['namakecamatan']}}</b></th>
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                   <tr>
-                                    <td class="text-center"><b>Non-Response</b></td>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '12' )
-                                    <?php $ci = Nbssk::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','12')->sum('cacahnr') ;
-                                          $rul = Nbssk::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','12')->sum('maxcacah') ;
-                                            ?>
-                                    <td class="text-center"><?php echo $ci." (".number_format((float)($ci/$rul*100),2,'.','')."% )"; ?></td>
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                  <tr>
-                                    <td class="text-center"><b>Progress Cacah</b></td>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '12' )
-                                    <?php $ci = Nbssk::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','12')->sum('cacah') ;
-                                          $rul = Nbssk::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','12')->sum('maxcacah') ;
-                                            ?>
-                                    <td class="text-center"><?php echo $ci." (".number_format((float)($ci/$rul*100),2,'.','')."% )"; ?></td>
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                  <tr>
-                                    <td class="text-center"><b>Beban Cacah</b></td>
-                                    @foreach($data as $row)
-                                    @if( $row['kota'] == '12' )
-                                    <?php $rul = Nbssk::where('idkecamatan','=',$row['idkecamatan'])->where('kota','=','12')->sum('maxcacah') ; ?>
-                                    <td class="text-center"><?php echo $rul." ( 100% )"; ?></td>
-                                    @endif
-                                    @endforeach
-                                  </tr>
-                                </tbody>
-                            </table>
+                                <table id="tableindramayu" class="table table-bordered" cellspacing="0" width="100%">
+                                    
+                                    <thead>
+                                        <tr>
+                                            <th>Nama Kecamatan</th>
+                                            <th>Progress Cacah</th>
+                                            <th>Beban Cacah</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
                             </div>
                             
 <!--                            <div id="progress" class="tab-pane fade active">
@@ -266,3 +126,29 @@
 		</style>
                                     
 @stop
+
+@section('script')
+  @parent
+
+    <script>
+      $(document).ready(function() {
+          $('#tablecirebon').dataTable( {
+              "bServerSide": true,
+              "sAjaxSource": "http:\/\/localhost\/monitoring\/public\/api\/cacah\/09",
+              
+          } );
+          $('#tablesukabumi').dataTable( {
+              "bServerSide": true,
+              "sAjaxSource": "http:\/\/localhost\/monitoring\/public\/api\/cacah\/02",
+          } );
+          $('#tablebandung').dataTable( {
+              "bServerSide": true,
+              "sAjaxSource": "http:\/\/localhost\/monitoring\/public\/api\/cacah\/73",
+          } );
+          $('#tableindramayu').dataTable( {
+              "bServerSide": true,
+              "sAjaxSource": "http:\/\/localhost\/monitoring\/public\/api\/cacah\/12",
+          } );
+      } );
+    </script>
+  @stop

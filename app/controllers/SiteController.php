@@ -639,7 +639,17 @@ public function indexTabulasi(){
     
     
     public function showProblems(){
-        $data = Problem::orderBy('tanggal', 'DESC')->paginate(15);
-        return View::make('monitoring/problems')->with('data',$data);
+        return View::make('monitoring/problems');
+    }
+
+    public function datatableProblems(){
+        return Datatable::collection(Problem::where('status','=','0')->get())
+        ->addColumn('tanggal',function($model){
+            return $model->tanggal." ".$model->waktu;
+        })
+        ->showColumns('sender','problem','tanggapan')
+        ->searchColumns('sender')
+        ->orderColumns('tanggal','sender','problem')
+        ->make();    
     }
 }

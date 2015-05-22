@@ -2,7 +2,7 @@
 
 @section('title')
 @parent
-:: Home
+:: Users
 @stop
 
 

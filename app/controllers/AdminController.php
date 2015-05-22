@@ -15,7 +15,7 @@ class AdminController extends Controller {
     }
 
     public function getUser(){
-        return View::make('admin/user')->with('data');
+        return View::make('admin/user');
     }
 
     public function getDatatable()
@@ -33,5 +33,27 @@ class AdminController extends Controller {
         ->orderColumns('idkelurahan','namakortim','bebanlisting','maxcacah')
         ->make();
     }
+
+    public function getProblems(){
+        return View::make('admin/problems');
+    }
+
+    public function datatableProblems(){
+        return Datatable::collection(Problem::all())
+        ->addColumn('button',function($model){
+            if(!$model->status)
+                return '<button id="'.$model->idproblem.'" class="btn btn-success filter">publish</button>';
+            else
+                return '<button id="'.$model->idproblem.'" class="btn btn-danger filter">unpublish</button>'; 
+        })
+        ->addColumn('tanggal',function($model){
+            return $model->tanggal." ".$model->waktu;
+        })
+        ->showColumns('sender','problem','tanggapan')
+        ->searchColumns('sender')
+        ->orderColumns('tanggal','sender','problem')
+        ->make();    
+    }
+
 
 }

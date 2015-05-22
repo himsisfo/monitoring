@@ -6,7 +6,6 @@
 	"type": "project",
 	"require": {
 		"laravel/framework": "4.2.*",
-		"twitter/bootstrap": "*",
 		"toin0u/geocoder-laravel": "@stable",
 		"tinymce/tinymce": "dev-master",
 		"creitive/breadcrumbs": "~1.0",
