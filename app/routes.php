@@ -13,6 +13,8 @@
 // Secure-Routes
 Route::group(array('before' => 'auth'), function()
 {
+	Route::post('currenttime','OtherController@getCurrentTime');
+
 	Route::get('','SiteController@welcome');
 	Route::get('logout', 'SiteController@getLogout');
 
@@ -35,7 +37,7 @@ Route::group(array('before' => 'auth'), function()
 	
 
 	//game
-	Route::get('game','GameController@showGame');
+	Route::get('game','OtherController@showGame');
 	
 	//show problems
     Route::get('problems','SiteController@showProblems');	
