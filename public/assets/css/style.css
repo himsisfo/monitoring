@@ -2259,3 +2259,13 @@ label {
 ul.sidebar-menu li ul.sub li a.sublistactive{
     color: #ffffff;
 }
+
+.btn.btn-sm.btn-success{
+    background-color: #00A29C;
+    border: none;
+}
+
+.btn.btn-sm.btn-success:hover{
+    background-color: #008984;
+    border: none;
+}
