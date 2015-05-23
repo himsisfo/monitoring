@@ -2260,12 +2260,32 @@ ul.sidebar-menu li ul.sub li a.sublistactive{
     color: #ffffff;
 }
 
-.btn.btn-sm.btn-success{
+.btn.btn-sm.btn-success {
     background-color: #00A29C;
     border: none;
 }
 
-.btn.btn-sm.btn-success:hover{
+.btn.btn-sm.btn-success:hover {
     background-color: #008984;
     border: none;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    color: #A1A1A1;
+}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover {
+    color: #A1A1A1;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #A1A1A1;
+  border-color: #A1A1A1;
 }
