@@ -9,10 +9,9 @@
             <!--logo start-->
             <a href="{{URL::to('/')}}" class="logo"><b>PKL54 - Monitoring Survey</b></a>
             <!--logo end-->
-        
             <div class="top-menu">
-                    
                 <ul class="nav pull-right top-menu">
+                	 <li id="timer"></span></li>
                     @if (!Auth::guest())
                      <li><a class="logout" href="logout">Logout</a></li>
                     @endif
